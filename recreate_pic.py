@@ -35,7 +35,7 @@ make_rect(110, 290, 70, 200)
 make_rect(180, 250, 70, 200)
 make_rect(245, 160, 80, 250)
 make_rect(315, 320, 50, 100)
-make_rect(365, 290, 60, 200)
+make_rect(365, 260, 60, 200)
 make_rect(425, 160, 60, 300)
 make_rect(480, 220, 60, 250)
 
@@ -44,8 +44,9 @@ pygame.draw.ellipse(main_surface, (110, 110, 110), (136, 180, 250, 550), 20)
 
 make_window(45, 220)
 make_window(80, 240)
-make_window(45, 300)
-
+make_window(50, 350)
+make_window(80, 350)
+make_window(470, 240)
 
 while True:
     pygame.display.update()
